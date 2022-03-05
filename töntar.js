@@ -54,6 +54,11 @@ töntar = [
     {
         "discordId": "212277187351412736",
         "benämning": "Luddekudde",
+        "typ": "kudde",
+    },
+    {
+        "discordId": "949688339798315069",
+        "benämning": "sarah",
         "typ": "user",
     },
     {
@@ -150,7 +155,7 @@ töntar = [
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "149298760042807296",
         "benämning": "ezekiel",
         "typ":  "user",
     },
@@ -165,9 +170,14 @@ töntar = [
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "241669667469393920",
         "benämning": "ting",
         "typ": "user",
+    },
+    {
+        "discordId": "872926293136670801",
+        "benämning": "ting2",
+        "typ": "oklart",
     },
     {
         "discordId": "101367380017442816",
@@ -175,7 +185,7 @@ töntar = [
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "131145000124678145",
         "benämning": "mike",
         "typ": "user",
     },
@@ -192,18 +202,18 @@ töntar = [
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "215911981624852491",
         "benämning": "connor",
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "177559233833730048",
         "benämning": "emil2",
         "nick": "emil",
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "227040765883187200",
         "benämning": "alex",
         "typ": "user",
     },
@@ -268,6 +278,11 @@ töntar = [
         "typ": "user",
     },
     {
+        "discordId": "151040052439285761",
+        "benämning": "trattkatt",
+        "typ": "user",
+    },
+    {
         "discordId": "614830746015629452",
         "benämning": "toste2",
         "typ": "user",
@@ -301,6 +316,11 @@ töntar = [
         "discordId": "949647007704817665",
         "benämning": "adminbot",
         "typ": "bot",
+    },
+    {
+        "discordId": "798977710705475604",
+        "benämning": "VRHaj",
+        "typ": "VR",
     },
     {
         "discordId": "",

@@ -237,6 +237,21 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "linus",
+        "till": "sarah",
+        "typ": "invit",
+    },
+    {
+        "från": "ting",
+        "till": "ting2",
+        "typ": "invit",
+    },
+    {
+        "från": "magnus",
+        "till": "VRHaj",
+        "typ": "invit",
+    },
+    {
         "från": "uschtvii",
         "till": "SATAN",
         "typ": "skugga",
@@ -285,6 +300,16 @@ relationer = [
         "från": "spacehippo",
         "till": "fia",
         "typ": "invit",
+    },
+    {
+        "från": 8,
+        "till": "trattkatt",
+        "typ": "invit",
+    },
+    {
+        "från": 8,
+        "till": "coral",
+        "typ": "ban",
     },
     {
         "från": "uschtvii",

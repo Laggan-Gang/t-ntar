@@ -60,7 +60,13 @@ dagordningen[kommandorörelse]('hämta')
                     om(t.storlek, () => nod.size = t.storlek)
                     return nod;
                 })
-                // notera(gobbs)
+                slutgiltigaNoder = [...töntarSomNoder, ...nycklar(gobbs).map(g => ({
+                    id: g,
+                    [fotnot]: gobbs[g].nick + gobbs[g].nick!=gobbs[g].användarnamn?"\n"+gobbs[g].användarnamn:"",
+                    size: (1-(gobbs[g].gickMed-äldsta)/epok)*30+5,
+                    [bild]: gobbs[g].gestalt,
+                }))]
+                notera(gobbs)
                 relationerSomKanter = relationer.filter(r => r.från && r.till).map((r) => {
                     kant = {
                         "from": r.från,
@@ -72,10 +78,15 @@ dagordningen[kommandorörelse]('hämta')
                             kant[streckad] = sant
                             kant[pilar] = till
                         },
+                        'ban': () => {
+                            kant[streckad] = sant
+                            kant[pilar] = till
+                            kant[färg] = röd
+                        }
                     })
                     return kant;
                 });
-                filSystem[skrivFilSynkront]('../Lagganstuff/töntz.json', JSON[strängifiera]({ [noder]: töntarSomNoder, [kanter]: relationerSomKanter}));
+                filSystem[skrivFilSynkront]('../Lagganstuff/töntz.json', JSON[strängifiera]({ [noder]: slutgiltigaNoder, [kanter]: relationerSomKanter}));
                 stängNer();     
             })
         })
