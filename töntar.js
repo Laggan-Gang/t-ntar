@@ -33,11 +33,76 @@ töntar = [
         "typ": "user",
     },
     {
+        "discordId": "629231357167665162",
+        "benämning": "icefrag",
+        "typ": "user",
+    },
+    {
+        "discordId": "237608224319209472",
+        "benämning": "pontus",
+        "typ": "user",
+    },
+    {
         "discordId": "208912871621394432",
         "benämning": "spacehippo",
         "skrevFörst": new Date(2016,8,13),
         "firstMessage": "",
         "typ": "user",
+    },
+    {
+        "discordId": "249941929515679744",
+        "benämning": "pkaff",
+        "typ": "user",
+    },
+    {
+        "discordId": "119046223964536834",
+        "benämning": "VidyaViking",
+        "typ": "user",
+    },
+    {
+        "discordId": "219912580813160448",
+        "benämning": "doedscalle",
+        "typ": "user",
+    },
+    {
+        "discordId": "651177486503247872",
+        "benämning": "adam",
+        "typ": "user",
+    },
+    {
+        "discordId": "140204978227642368",
+        "benämning": "Elias Thorn",
+        "typ": "user",
+    },
+    {
+        "discordId": "146351485196828672",
+        "benämning": "Korvblad",
+        "typ": "user",
+    },
+    {
+        "discordId": "217949634893447169",
+        "benämning": "Hannes",
+        "typ": "user",
+    },
+    {
+        "discordId": "632228356720689152",
+        "benämning": "Soggefors",
+        "typ": "user",
+    },
+    {
+        "discordId": "251018570027368469",
+        "benämning": "Låda",
+        "typ": "user",
+    },
+    {
+        "discordId": "457695196327444482",
+        "benämning": "Melker",
+        "typ": "user",
+    },
+    {
+        "discordId": "559426966151757824",
+        "benämning": "NQN",
+        "typ": "bot",
     },
     {
         "discordId": "145675310682079232",
@@ -119,8 +184,18 @@ töntar = [
         "typ": "user",
     },
     {
-        "discordId": "",
+        "discordId": "487679870839685120",
         "benämning": "dan",
+        "typ": "user",
+    },
+    {
+        "discordId": "207171787853791232",
+        "benämning": "rThor",
+        "typ": "user",
+    },
+    {
+        "discordId": "161951163367948288",
+        "benämning": "daniel",
         "typ": "user",
     },
     {

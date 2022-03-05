@@ -10,6 +10,76 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "ARTHAS",
+        "till": "icefrag",
+        "typ": "alias",
+    },
+    {
+        "från": "pontus",
+        "till": "august",
+        "typ": "skugga",
+    },
+    {
+        "från": "niklas",
+        "till": "pontus",
+        "typ": "invit",
+    },
+    {
+        "från": "linus",
+        "till": "adam",
+        "typ": "invit",
+    },
+    {
+        "från": "toste",
+        "till": "doedscalle",
+        "typ": "invit",
+    },
+    {
+        "från": "niklas",
+        "till": "VidyaViking",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "pkaff",
+        "typ": "oklartinvit",
+    },
+    {
+        "från": "august",
+        "till": "Hannes",
+        "typ": "invit",
+    },
+    {
+        "från": "adam",
+        "till": "Soggefors",
+        "typ": "alias",
+    },
+    {
+        "från": "snakebunker",
+        "till": "Elias Thorn",
+        "typ": "invit",
+    },
+    {
+        "från": "niklas",
+        "till": "Korvblad",
+        "typ": "invit",
+    },
+    {
+        "från": "august",
+        "till": "Låda",
+        "typ": "invit",
+    },
+    {
+        "från": "spacehippo",
+        "till": "Melker",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "NQN",
+        "typ": "invit",
+    },
+    {
         "från": "denkan",
         "till": "eddy",
         "typ": "invit",
@@ -32,14 +102,17 @@ relationer = [
     {
         "från": "hugo",
         "till": "LagganDumle",
+        "typ": "alias",
     },
     {
         "från": "uschtvii",
         "till": "mört",
+        "typ": "alias",
     },
     {
         "från": "denkan",
         "till": "hobbabobbabooh",
+        "typ": "invit",
     },
     {
         "från": "hugo",
@@ -79,6 +152,11 @@ relationer = [
     {
         "från": "denkan",
         "till": "max",
+        "typ": "invit",
+    },
+    {
+        "från": "chris",
+        "till": "rThor",
         "typ": "invit",
     },
     {
@@ -141,11 +219,11 @@ relationer = [
         "till": "mitch",
         "typ": "skugga",
     },
-    {
-        "från": "spacehippo",
-        "till": "Luddekudde",
-        "typ": "invit",
-    },
+    // {
+    //     "från": "spacehippo",
+    //     "till": "Luddekudde",
+    //     "typ": "invit",
+    // },
     {
         "från": "jorel",
         "till": "Storel",
@@ -212,7 +290,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "niklas",
+        "från": "mitch",
         "till": "chris",
         "typ": "invit",
     },
@@ -264,7 +342,17 @@ relationer = [
     {
         "från": "spacehippo",
         "till": "SATAN",
-        "typ": "invit",
+        "typ": "skugga",
+    },
+    {
+        "från": "fia",
+        "till": "SATAN",
+        "typ": "alias",
+    },
+    {
+        "från": "fia",
+        "till": "SATAN 2",
+        "typ": "alias",
     },
     {
         "från": "uschtvii",
@@ -279,7 +367,7 @@ relationer = [
     {
         "från": "spacehippo",
         "till": "SATAN 2",
-        "typ": "invit",
+        "typ": "skugga",
     },
     {
         "från": "denkan",
@@ -310,6 +398,11 @@ relationer = [
         "från": 8,
         "till": "coral",
         "typ": "ban",
+    },
+    {
+        "från": "ARTHAS",
+        "till": "daniel",
+        "typ": "invite",
     },
     {
         "från": "uschtvii",
