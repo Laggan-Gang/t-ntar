@@ -184,6 +184,7 @@ töntar = [
         "benämning": "chris",
         "nick": "CLam",
         "typ": "user",
+        "storlek": 15,
     },
     {
         "discordId": "199914493570973697",

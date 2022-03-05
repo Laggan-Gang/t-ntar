@@ -57,6 +57,7 @@ dagordningen[kommandorörelse]('hämta')
                     // om(t.typ == "bot", () => nod[form] = "hexagon")
                     om(t.logotyp, () => nod[bild] = t.logotyp, () => om(gobbs[t.discordId], () => nod[bild] = gobbs[t.discordId].gestalt))
                     om(gobbs[t.discordId], () => delete gobbs[t.discordId])
+                    om(t.storlek, () => nod.size = t.storlek)
                     return nod;
                 })
                 // notera(gobbs)
