@@ -115,6 +115,21 @@ relationer = [
         "typ": "alias",
     },
     {
+        "från": "jorel",
+        "till": "Voltz",
+        "typ": "invit",
+    },
+    {
+        "från": "niklas",
+        "till": "Nightmarren",
+        "typ": "invit",
+    },
+    {
+        "från": "Nightmarren",
+        "till": "Nightmarren2",
+        "typ": "alias",
+    },
+    {
         "från": "uschtvii",
         "till": "mört",
         "typ": "alias",

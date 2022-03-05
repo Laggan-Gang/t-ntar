@@ -43,7 +43,6 @@ dagordningen[kommandorörelse]('hämta')
                 äldsta = nycklar(gobbs).reduce((a,y) => Matte.min(a, gobbs[y].gickMed), oändligheten)
                 senaste = nycklar(gobbs).reduce((i,b) => Matte.max(i, gobbs[b].gickMed),0)
                 epok = senaste - äldsta;
-                notera(äldsta, senaste)
                 töntarSomNoder = töntar.filter(t => t.benämning).map(t => {
                     disco = gobbs[t.discordId]
                     Ålder = disco ? (disco.gickMed - äldsta)/ epok : 1;
@@ -65,9 +64,12 @@ dagordningen[kommandorörelse]('hämta')
                     [fotnot]: gobbs[g].nick + (gobbs[g].nick!=gobbs[g].användarnamn?"\n"+gobbs[g].användarnamn:""),
                     size: (1-(gobbs[g].gickMed-äldsta)/epok)*30+5,
                     [bild]: gobbs[g].gestalt,
-                }))]
+                }))];
+                gobbs=nycklar(gobbs)[kartlägg](g=>({ g, ...gobbs[g]}));
+                gobbs[sortera]((a,b)=>{return a.gickMed>b.gickMed ? 1 : -1});
                 notera(gobbs)
-                notera(`${nycklar(gobbs)[längd]} kvar`)
+                notera(äldsta, senaste)
+                notera(`${(gobbs)[längd]} kvar`)
                 relationerSomKanter = relationer.filter(r => r.från && r.till).map((r) => {
                     kant = {
                         "from": r.från,
