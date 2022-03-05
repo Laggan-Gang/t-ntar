@@ -60,10 +60,10 @@ dagordningen[kommandorörelse]('hämta')
                 })
                 gobbs=nycklar(gobbs)[kartlägg](g=>({ g, ...gobbs[g]}))[sila](g => !(töntar[några](t=>(t.discordId==g.g))));
                 slutgiltigaNoder = [...töntarSomNoder, ...gobbs[kartlägg](g => ({
-                    id: g,
-                    [fotnot]: gobbs[g].nick + (gobbs[g].nick!=gobbs[g].användarnamn?"\n"+gobbs[g].användarnamn:""),
-                [storlek]: (1-(gobbs[g].gickMed-äldsta)/epok)*30+5,
-                    [bild]: gobbs[g].gestalt,
+                    id: g.g,
+                    [fotnot]: g.nick + (g.nick!=g.användarnamn?"\n"+g.användarnamn:""),
+                [storlek]: (1-(g.gickMed-äldsta)/epok)*30+5,
+                    [bild]: g.gestalt,
                 }))];
                 gobbs[sortera]((a,b)=>(a.gickMed>b.gickMed ? 1 : -1));
                 notera(gobbs)
