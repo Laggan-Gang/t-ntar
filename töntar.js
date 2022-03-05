@@ -318,6 +318,21 @@ töntar = [
         "typ": "user",
     },
     {
+        "discordId": "280314936725471233",
+        "benämning": "frej",
+        "typ": "user",
+    },
+    {
+        "discordId": "770615405201981461",
+        "benämning": "frej2",
+        "typ": "user",
+    },
+    {
+        "discordId": "187663940501766166",
+        "benämning": "Altires",
+        "typ": "user",
+    },
+    {
         "discordId": "",
         "benämning": "gravebot",
         "typ": "bot",

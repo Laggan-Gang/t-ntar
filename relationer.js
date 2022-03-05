@@ -42,7 +42,7 @@ relationer = [
     {
         "från": "jorel",
         "till": "pkaff",
-        "typ": "oklartinvit",
+        "typ": "oklarinvit",
     },
     {
         "från": "august",
@@ -368,6 +368,21 @@ relationer = [
         "från": "spacehippo",
         "till": "SATAN 2",
         "typ": "skugga",
+    },
+    {
+        "från": "max",
+        "till": "frej",
+        "typ": "oklarinvit",
+    },
+    {
+        "från": "frej",
+        "till": "frej2",
+        "typ": "alias",
+    },
+    {
+        "från": "niklas",
+        "till": "Altires",
+        "typ": "invit",
     },
     {
         "från": "denkan",
