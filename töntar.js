@@ -179,6 +179,11 @@ töntar = [
         "typ": "user",
     },
     {
+        "discordId": "128940731745173505",
+        "benämning": "tornborg",
+        "typ": "user",
+    },
+    {
         "discordId": "82706128357560320",
         "benämning": "niklas",
         "typ": "user",
@@ -315,6 +320,26 @@ töntar = [
     {
         "discordId": "890019799994867723",
         "benämning": "fia",
+        "typ": "user",
+    },
+    {
+        "discordId": "170472369792483328",
+        "benämning": "Fawger",
+        "typ": "user",
+    },
+    {
+        "discordId": "128939696867770368",
+        "benämning": "bishop",
+        "typ": "user",
+    },
+    {
+        "discordId": "207581293406322689",
+        "benämning": "laxen",
+        "typ": "user",
+    },
+    {
+        "discordId": "701183154509054032",
+        "benämning": "tod2",
         "typ": "user",
     },
     {

@@ -105,6 +105,16 @@ relationer = [
         "typ": "alias",
     },
     {
+        "från": "hugo",
+        "till": "LagganHumle",
+        "typ": "alias",
+    },
+    {
+        "från": "magnus",
+        "till": "tornborg",
+        "typ": "alias",
+    },
+    {
         "från": "uschtvii",
         "till": "mört",
         "typ": "alias",
@@ -200,7 +210,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "fredrik",
+        "från": "jorel",
         "till": "magnus",
         "typ": "invit",
     },
@@ -327,7 +337,7 @@ relationer = [
     {
         "från": "magnus",
         "till": "VRHaj",
-        "typ": "invit",
+        "typ": "alias",
     },
     {
         "från": "uschtvii",
@@ -380,9 +390,29 @@ relationer = [
         "typ": "alias",
     },
     {
+        "från": "max",
+        "till": "Fawger",
+        "typ": "invit",
+    },
+    {
+        "från": "spacehippo",
+        "till": "bishop",
+        "typ": "invit",
+    },
+    {
+        "från": "niklas",
+        "till": "laxen",
+        "typ": "invit",
+    },
+    {
         "från": "niklas",
         "till": "Altires",
         "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "tod2",
+        "typ": "alias",
     },
     {
         "från": "denkan",

@@ -62,11 +62,12 @@ dagordningen[kommandorörelse]('hämta')
                 })
                 slutgiltigaNoder = [...töntarSomNoder, ...nycklar(gobbs).map(g => ({
                     id: g,
-                    [fotnot]: gobbs[g].nick + gobbs[g].nick!=gobbs[g].användarnamn?"\n"+gobbs[g].användarnamn:"",
+                    [fotnot]: gobbs[g].nick + (gobbs[g].nick!=gobbs[g].användarnamn?"\n"+gobbs[g].användarnamn:""),
                     size: (1-(gobbs[g].gickMed-äldsta)/epok)*30+5,
                     [bild]: gobbs[g].gestalt,
                 }))]
                 notera(gobbs)
+                notera(`${nycklar(gobbs)[längd]} kvar`)
                 relationerSomKanter = relationer.filter(r => r.från && r.till).map((r) => {
                     kant = {
                         "from": r.från,
