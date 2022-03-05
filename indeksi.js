@@ -46,11 +46,11 @@ dagordningen[kommandorörelse]('hämta')
                 notera(äldsta, senaste)
                 töntarSomNoder = töntar.filter(t => t.benämning).map(t => {
                     disco = gobbs[t.discordId]
-                    Ålder = disco ? (disco.gickMed*2 - äldsta)/ epok : 1;
+                    Ålder = disco ? (disco.gickMed - äldsta)/ epok : 1;
                     nod = {
                         id: t.benämning, 
                         [fotnot]: disco?.nick || t.nick || t.benämning,
-                        // mass: Ålder
+                        size: (1-Ålder) * 10 + 25,
                     };
                     // notera("hej", t.discordId, !!gobbs[t.discordId], nod[fotnot])
                     om(disco && (nod[fotnot] != disco?.användarnamn), () => nod[fotnot] += "\n"+disco?.användarnamn)   
