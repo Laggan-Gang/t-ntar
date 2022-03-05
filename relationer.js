@@ -87,6 +87,36 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "max",
+        "till": "magnus",
+        "typ": "skugga",
+    },
+    {
+        "från": "denkan",
+        "till": "adminbot",
+        "typ": "kodapa",
+    },
+    {
+        "från": "august",
+        "till": "claes",
+        "typ": "kodapa",
+    },
+    {
+        "från": "fredrik",
+        "till": "claes",
+        "typ": "kodapa",
+    },
+    {
+        "från": "tod",
+        "till": "claes",
+        "typ": "kodapa",
+    },
+    {
+        "från": "denkan",
+        "till": "elevrådsordföranden",
+        "typ": "kodapa",
+    },
+    {
         "från": "jorel",
         "till": "fredrik",
         "typ": "invit",
@@ -102,7 +132,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "fredrik",
+        "från": "magnus",
         "till": "niklas",
         "typ": "skugga",
     },

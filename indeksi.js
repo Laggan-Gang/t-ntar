@@ -66,11 +66,10 @@ dagordningen[kommandorörelse]('hämta')
                         "from": r.från,
                         "to": r.till,
                     }
-                    switch(r.typ) {
-                        case 'skugga':
-                            kant[streckad] = sant;
-                            break;
-                    }
+                    förgrena(r.typ, {
+                        'skugga': () => kant[streckad] = sant,
+                        'kodapa': () => kant[pilar] = till,
+                    })
                     return kant;
                 });
                 filSystem[skrivFilSynkront]('../Lagganstuff/töntz.json', JSON[strängifiera]({ [noder]: töntarSomNoder, [kanter]: relationerSomKanter}));
