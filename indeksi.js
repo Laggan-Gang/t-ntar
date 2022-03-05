@@ -68,7 +68,10 @@ dagordningen[kommandorörelse]('hämta')
                     }
                     förgrena(r.typ, {
                         'skugga': () => kant[streckad] = sant,
-                        'kodapa': () => kant[pilar] = till,
+                        'kodapa': () => {
+                            kant[streckad] = sant
+                            kant[pilar] = till
+                        },
                     })
                     return kant;
                 });
