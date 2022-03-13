@@ -112,7 +112,22 @@ relationer = [
     {
         "från": "magnus",
         "till": "tornborg",
-        "typ": "alias",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "Santas little scalper",
+        "typ": "invit",
+    },
+    {
+        "från": "Tod",
+        "till": "Tods schackkompis",
+        "typ": "invit",
+    },
+    {
+        "från": "max",
+        "till": "Santas little scalper",
+        "typ": "kodapa",
     },
     {
         "från": "jorel",
@@ -225,7 +240,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "jorel",
+        "från": "fredrik",
         "till": "magnus",
         "typ": "invit",
     },
@@ -355,18 +370,33 @@ relationer = [
         "typ": "alias",
     },
     {
-        "från": "uschtvii",
-        "till": "SATAN",
+        "till": "uschtvii",
+        "från": "fia",
         "typ": "skugga",
     },
     {
-        "från": "hugo",
-        "till": "SATAN",
+        "till": "hugo",
+        "från": "fia",
         "typ": "skugga",
     },
     {
         "från": "spacehippo",
-        "till": "SATAN",
+        "till": "fia",
+        "typ": "invit",
+    },
+    {
+        "till": "uschtvii",
+        "från": "SATAN",
+        "typ": "skugga",
+    },
+    {
+        "till": "hugo",
+        "från": "SATAN",
+        "typ": "skugga",
+    },
+    {
+        "till": "spacehippo",
+        "från": "SATAN",
         "typ": "skugga",
     },
     {
@@ -380,18 +410,18 @@ relationer = [
         "typ": "alias",
     },
     {
-        "från": "uschtvii",
-        "till": "SATAN 2",
+        "till": "uschtvii",
+        "från": "SATAN 2",
         "typ": "skugga",
     },
     {
-        "från": "hugo",
-        "till": "SATAN 2",
+        "till": "hugo",
+        "från": "SATAN 2",
         "typ": "skugga",
     },
     {
-        "från": "spacehippo",
-        "till": "SATAN 2",
+        "till": "spacehippo",
+        "från": "SATAN 2",
         "typ": "skugga",
     },
     {
@@ -435,21 +465,6 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "uschtvii",
-        "till": "fia",
-        "typ": "skugga",
-    },
-    {
-        "från": "hugo",
-        "till": "fia",
-        "typ": "skugga",
-    },
-    {
-        "från": "spacehippo",
-        "till": "fia",
-        "typ": "invit",
-    },
-    {
         "från": 8,
         "till": "trattkatt",
         "typ": "invit",
@@ -462,7 +477,7 @@ relationer = [
     {
         "från": "ARTHAS",
         "till": "daniel",
-        "typ": "invite",
+        "typ": "invit",
     },
     {
         "från": "uschtvii",

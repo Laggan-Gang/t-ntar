@@ -30,6 +30,7 @@ töntar = [
         "benämning": "ARTHAS",
         "skrevFörst": new Date(2016,8,7),
         "firstMessage": "ARTHAS",
+        "alternativaNamn": ["victor"],
         "typ": "user",
     },
     {
@@ -47,6 +48,7 @@ töntar = [
         "benämning": "spacehippo",
         "skrevFörst": new Date(2016,8,13),
         "firstMessage": "",
+        "alternativaNamn": ["ludvig"],
         "typ": "user",
     },
     {
@@ -109,6 +111,7 @@ töntar = [
         "benämning": "denkan",
         "gickMed": new Date(2016,8,24,20,43),
         "skrevFörst": new Date(2016,8,24),
+        "alternativaNamn": ["dennis"],
         "typ": "user",
     },
     {
@@ -142,6 +145,7 @@ töntar = [
         "nick": "Naone",
         "gickMed": new Date(2016,8,27),
         "skrevFörst": new Date(2016,9,10),
+        "alternativaNamn": ["edwin"],
         "typ": "user",
     },
     {
@@ -156,6 +160,7 @@ töntar = [
         "logotyp": "https://cdn.discordapp.com/avatars/212311055307636736/83b72afe63f87cc85cc2146cafbf2184.webp?size=128",
         "benämning": "jean-pierre lacomposte",
         "leaveDate": new Date(2019,3,18,21,45),
+        "alternativaNamn": ["jean-pierre lacomposte?"],
         "typ": "mystery",
     },
     {
@@ -172,6 +177,7 @@ töntar = [
         "discordId": "395189309688512512",
         "benämning": "jorel",
         "typ": "user",
+        "alternativaNamn": ["joel"]
     },
     {
         "discordId": "157775827692421120",
@@ -207,6 +213,7 @@ töntar = [
         "discordId": "217109962084712448",
         "benämning": 8,
         "nick": "admin",
+        "alternativaNamn": ["sara"],
         "typ": "admin",
     },
     {
@@ -300,6 +307,7 @@ töntar = [
     {
         "discordId": "151072254862557184",
         "benämning": "wannehed",
+        "alternativaNamn": ["isac"],
         "typ": "user",
     },
     {
@@ -335,6 +343,7 @@ töntar = [
     {
         "discordId": "890019799994867723",
         "benämning": "fia",
+        "alternativaNamn": ["sofia"],
         "typ": "user",
     },
     {
@@ -443,6 +452,11 @@ töntar = [
         "typ": "bot",
     },
     {
+        "discordId": "936272969162977280",
+        "benämning": "Santas little scalper",
+        "typ": "bot",
+    },
+    {
         "discordId": "949647007704817665",
         "benämning": "adminbot",
         "typ": "bot",
@@ -451,6 +465,11 @@ töntar = [
         "discordId": "798977710705475604",
         "benämning": "VRHaj",
         "typ": "VR",
+    },
+    {
+        "discordId": "476003192706957342",
+        "benämning": "Tods schackkompis",
+        "typ": "user",
     },
     {
         "discordId": "",
