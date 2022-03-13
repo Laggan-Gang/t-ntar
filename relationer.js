@@ -120,7 +120,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "Tod",
+        "från": "tod",
         "till": "Tods schackkompis",
         "typ": "invit",
     },

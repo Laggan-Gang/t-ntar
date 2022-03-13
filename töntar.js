@@ -3,6 +3,7 @@ töntar = [
         "discordId": "130467432513929216",
         "benämning": "magnus", // glöm inte
         "typ": "user",
+        "logotyp": "https://i.redd.it/ycxc1xqwr5l21.jpg",
     },
     {
         "discordId": "207840759087497217",
@@ -154,6 +155,8 @@ töntar = [
         "gickMed": new Date(2016,8,27),
         "leaveDate": new Date(),
         "typ": "banned",
+        "logotyp": "https://avatars.githubusercontent.com/u/2163363?v=4",
+        "färg": "#FF6600",
     },
     {
         "discordId": "949428935362498620",
