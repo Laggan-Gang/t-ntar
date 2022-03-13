@@ -35,6 +35,11 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "toste",
+        "till": "Tostes polare",
+        "typ": "invit",
+    },
+    {
         "från": "niklas",
         "till": "VidyaViking",
         "typ": "invit",
@@ -537,7 +542,12 @@ relationer = [
     {
         "från": "toste",
         "till": "toste2",
-        "typ": "invit"
+        "typ": "alias"
+    },
+    {
+        "från": "toste",
+        "till": "Tostes brädspelkompis",
+        "typ": "invit",
     },
     {
         "från": "",

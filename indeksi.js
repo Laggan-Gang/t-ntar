@@ -48,9 +48,9 @@ dagordningen[kommandorörelse]('hämta')
         görTöntAvGobbe = (gobbe, överskrifter = {}) => ({
             ...överskrifter,
             id: överskrifter[legitimation] || gobbe[användare][legitimation],
-            [fotnot]: [gobbe[smeknamn], gobbe[användare][användarnamn]][sila](i=>i)[förena]("\n"),
+            [fotnot]: [gobbe[smeknamn], [gobbe[användare][användarnamn], gobbe[användare][diskriminerare]].join("#")][sila](i=>i)[förena]("\n"),
             [storlek]: (1 - (gobbe[gickMed] - äldsta) / epok) * 15 + 10,
-            [bild]: överskrifter.bild || (gobbe[användare].avatar && `https://cdn.discordapp.com/avatars/${gobbe[användare][legitimation]}/${gobbe[användare].avatar}`), // troligen viktigt
+            [bild]: överskrifter[bild] || (gobbe[användare].avatar && `https://cdn.discordapp.com/avatars/${gobbe[användare][legitimation]}/${gobbe[användare].avatar}`), // troligen viktigt
             [färg]: gobbe[skärmBesvärjelseFärg],
             gickMed: nyttDatum(gobbe[gickMed])[förHakband]()
         })
@@ -70,8 +70,16 @@ dagordningen[kommandorörelse]('hämta')
             ...gobbs[kartlägg](görTöntAvGobbe),
             ...kekNodz
         ];
+        relationer[förVarje](r => {
+            om(r.typ == 'alias', () => {
+                härkomst = slutgiltigaNoder[hitta](nodHittare(r.från))
+                destination = slutgiltigaNoder[hitta](nodHittare(r.till))
+                om(!destination[bild] && härkomst[bild], () => destination[bild] = härkomst[bild])
+            })
+        })
         gobbs[sortera]((a, b) => (a[gickMed] > b[gickMed] ? 1 : -1));
-        // notera(gobbs)    
+        // notera(gobbs);
+        notera(gobbs[kartlägg](g => `${g[smeknamn]}, ${g[användare][användarnamn]}, ${g[användare][legitimation]}`))    
         notera(`${(gobbs)[längd]} okända figurer`)
         slumpaPilar = () => blanda(produktifiera([till, från, mitten]))[0][förena](",")
         kekNoder = {};

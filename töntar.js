@@ -475,6 +475,16 @@ töntar = [
         "typ": "user",
     },
     {
+        "discordId": "240192826778976267",
+        "benämning": "Tostes brädspelkompis",
+        "typ": "user",
+    },
+    {
+        "discordId": "104179279658508288",
+        "benämning": "Tostes polare",
+        "typ": "user",
+    },
+    {
         "discordId": "",
         "benämning": "",
         "typ": "user",
