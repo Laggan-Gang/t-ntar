@@ -4,9 +4,9 @@
   "description": "töntar",
   "main": "indeksi.js",
   "scripts": {
-    "start": "node -r ./språket.js indeksi.js hämta",
-    "dev": "nodemon -r ./språket.js indeksi.js hämta",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "starta": "node -r ./språket.js indeksi.js hämta",
+    "utveckla": "nodemon -r ./språket.js indeksi.js hämta",
+    "testa": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
