@@ -2,8 +2,9 @@ töntar = [
     {
         "discordId": "130467432513929216",
         "benämning": "magnus", // glöm inte
-        "typ": "user",
-        "logotyp": "https://i.redd.it/ycxc1xqwr5l21.jpg",
+        "typ": "användare",
+        // "logotyp": "https://i.redd.it/ycxc1xqwr5l21.jpg",
+        "logotyp": "https://media.discordapp.net/attachments/209707792314007552/967526158835023912/unknown.png",
     },
     {
         "discordId": "207840759087497217",
@@ -17,7 +18,7 @@ töntar = [
         "benämning": "emil",
         "skrevFörst": new Date(2016,8,2),
         "firstMessage": "rylai rylai rylai rylai",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "207974495393153024",
@@ -32,17 +33,17 @@ töntar = [
         "skrevFörst": new Date(2016,8,7),
         "firstMessage": "ARTHAS",
         "alternativaNamn": ["victor"],
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "629231357167665162",
         "benämning": "icefrag",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "237608224319209472",
         "benämning": "pontus",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "208912871621394432",
@@ -50,57 +51,59 @@ töntar = [
         "skrevFörst": new Date(2016,8,13),
         "firstMessage": "",
         "alternativaNamn": ["ludvig"],
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "249941929515679744",
         "benämning": "pkaff",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "119046223964536834",
         "benämning": "VidyaViking",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "219912580813160448",
         "benämning": "doedscalle",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "651177486503247872",
         "benämning": "adam",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "140204978227642368",
         "benämning": "Elias Thorn",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "146351485196828672",
         "benämning": "Korvblad",
-        "typ": "user",
+        "typ": "användare",
+        "leftDiscord": 1648249612357,
+        "logotyp": "https://cdn.discordapp.com/avatars/146351485196828672/a35c38df8ac0271aab2bcf590f99723d",
     },
     {
         "discordId": "217949634893447169",
         "benämning": "Hannes",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "632228356720689152",
         "benämning": "Soggefors",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "251018570027368469",
         "benämning": "Låda",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "457695196327444482",
         "benämning": "Melker",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "559426966151757824",
@@ -113,12 +116,12 @@ töntar = [
         "gickMed": new Date(2016,8,24,20,43),
         "skrevFörst": new Date(2016,8,24),
         "alternativaNamn": ["dennis"],
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "148528041713205248",
         "benämning": "hobbabobbabooh",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "212277187351412736",
@@ -128,7 +131,7 @@ töntar = [
     {
         "discordId": "949688339798315069",
         "benämning": "sarah",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "889485510949609474",
@@ -147,13 +150,12 @@ töntar = [
         "gickMed": new Date(2016,8,27),
         "skrevFörst": new Date(2016,9,10),
         "alternativaNamn": ["edwin"],
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "",
         "benämning": "coral",
         "gickMed": new Date(2016,8,27),
-        "leaveDate": new Date(),
         "typ": "banned",
         "logotyp": "https://avatars.githubusercontent.com/u/2163363?v=4",
         "färg": "#FF6600",
@@ -169,7 +171,7 @@ töntar = [
     {
         "discordId": "161956657402740736",
         "benämning": "max",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "889484950519312384",
@@ -179,38 +181,38 @@ töntar = [
     {
         "discordId": "395189309688512512",
         "benämning": "jorel",
-        "typ": "user",
+        "typ": "användare",
         "alternativaNamn": ["joel"]
     },
     {
         "discordId": "157775827692421120",
         "benämning": "fredrik",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "128940731745173505",
         "benämning": "tornborg",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "82706128357560320",
         "benämning": "niklas",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "487679870839685120",
         "benämning": "dan",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "207171787853791232",
         "benämning": "rThor",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "161951163367948288",
         "benämning": "daniel",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "217109962084712448",
@@ -222,27 +224,27 @@ töntar = [
     {
         "discordId": "84926802065096704",
         "benämning": "toste",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "151467562520150016",
         "benämning": "linus",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "583622744650809354",
         "benämning": "becca",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "128604198110625792",
         "benämning": "tod",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "314857007402319874",
         "benämning": "jezeray",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "149298760042807296",
@@ -252,17 +254,17 @@ töntar = [
     {
         "discordId": "200638077591355392",
         "benämning": "pao",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "118224261226692608",
         "benämning": "Storel",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "241669667469393920",
         "benämning": "ting",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "872926293136670801",
@@ -272,117 +274,120 @@ töntar = [
     {
         "discordId": "101367380017442816",
         "benämning": "mitch",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "131145000124678145",
         "benämning": "mike",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "224953719945560066",
-        "benämning": "chris",
+        "benämning": "lambert",
+        "alternativaNamn": ["chris"],
         "nick": "CLam",
-        "typ": "user",
+        "typ": "användare",
         "storlek": 15,
     },
     {
         "discordId": "199914493570973697",
-        "benämning": "august",
-        "typ": "user",
+        "benämning": "agge",
+        "alternativaNamn": ["august"],
+        "typ": "användare",
+        "logotyp": "https://media.discordapp.net/attachments/934816556590985216/957373395702534224/august.png",
     },
     {
         "discordId": "215911981624852491",
         "benämning": "connor",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "177559233833730048",
         "benämning": "emil2",
         "nick": "emil",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "227040765883187200",
         "benämning": "alex",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "151072254862557184",
         "benämning": "wannehed",
         "alternativaNamn": ["isac"],
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "200371134711988224",
         "benämning": "david",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "846460036686413856",
         "benämning": "Nightmarren",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "195608359276118016",
         "benämning": "Nightmarren2",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "173147201617395713",
         "benämning": "Voltz",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "478291848167948289",
         "benämning": "SATAN",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "893178375374524416",
         "benämning": "SATAN 2",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "890019799994867723",
         "benämning": "fia",
         "alternativaNamn": ["sofia"],
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "170472369792483328",
         "benämning": "Fawger",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "128939696867770368",
         "benämning": "bishop",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "207581293406322689",
         "benämning": "laxen",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "701183154509054032",
         "benämning": "tod2",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "280314936725471233",
         "benämning": "frej",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "770615405201981461",
         "benämning": "frej2",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "187663940501766166",
         "benämning": "Altires",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "",
@@ -392,6 +397,11 @@ töntar = [
     {
         "discordId": "172002275412279296",
         "benämning": "tatsu",
+        "typ": "bot",
+    },
+    {
+        "discordId": "975804505302126632",
+        "benämning": "PG",
         "typ": "bot",
     },
     {
@@ -412,22 +422,22 @@ töntar = [
     {
         "discordId": "105631049597353984",
         "benämning": "andersson",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "506945780431454208",
-        "benämning": "rkty",
-        "typ": "user",
+        "benämning": "sudden",
+        "typ": "användare",
     },
     {
         "discordId": "151040052439285761",
         "benämning": "trattkatt",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "614830746015629452",
         "benämning": "toste2",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "207841450333962241",
@@ -472,21 +482,71 @@ töntar = [
     {
         "discordId": "476003192706957342",
         "benämning": "Tods schackkompis",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "240192826778976267",
         "benämning": "Tostes brädspelkompis",
-        "typ": "user",
+        "typ": "användare",
     },
     {
         "discordId": "104179279658508288",
         "benämning": "Tostes polare",
-        "typ": "user",
+        "typ": "användare",
+    },
+    {
+        "discordId": "717767450825064468",
+        "benämning": "kalle kebab",
+        "typ": "användare",
+    },
+    {
+        "discordId": "149249725382656000",
+        "benämning": "Linus kompis",
+        "typ": "infiltratör",
+    },
+    {
+        "discordId": "255431752070201344",
+        "benämning": "näbbdjuret",
+        "typ": "användare",
+    },
+    {
+        "discordId": "281521046836871168",
+        "benämning": "rosa pingvinen",
+        "typ": "användare",
+    },
+    {
+        "discordId": "309400970524229635",
+        "benämning": "sidosteg",
+        "typ": "användare",
+    },
+    {
+        "discordId": "222832009343533056",
+        "benämning": "Thriump",
+        "typ": "användare",
+    },
+    {
+        "discordId": "724720729001689170",
+        "benämning": "linnea, fias kompis",
+        "typ": "användare",
+    },
+    {
+        "discordId": "193782437463982090",
+        "benämning": "Tor",
+        "typ": "användare",
+    },
+    {
+        "discordId": "326358844613853185",
+        "benämning": "ryssen",
+        "typ": "användare",
+    },
+    {
+        // "discordId": "265153081484902400",
+        "benämning": "agges polare",
+        "typ": "användare",
     },
     {
         "discordId": "",
         "benämning": "",
-        "typ": "user",
+        "typ": "användare",
     },
 ]

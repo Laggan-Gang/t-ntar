@@ -16,7 +16,7 @@ relationer = [
     },
     {
         "från": "pontus",
-        "till": "august",
+        "till": "agge",
         "typ": "skugga",
     },
     {
@@ -40,6 +40,11 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "toste",
+        "till": "Tostes polare",
+        "typ": "invit",
+    },
+    {
         "från": "niklas",
         "till": "VidyaViking",
         "typ": "invit",
@@ -50,7 +55,7 @@ relationer = [
         "typ": "oklarinvit",
     },
     {
-        "från": "august",
+        "från": "agge",
         "till": "Hannes",
         "typ": "invit",
     },
@@ -70,7 +75,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "august",
+        "från": "agge",
         "till": "Låda",
         "typ": "invit",
     },
@@ -120,6 +125,16 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "tornborg",
+        "till": "näbbdjuret",
+        "typ": "invit",
+    },
+    {
+        "från": "tornborg",
+        "till": "rosa pingvinen",
+        "typ": "invit",
+    },
+    {
         "från": "hugo",
         "till": "Santas little scalper",
         "typ": "invit",
@@ -132,6 +147,16 @@ relationer = [
     {
         "från": "max",
         "till": "Santas little scalper",
+        "typ": "kodapa",
+    },
+    {
+        "från": "hugo",
+        "till": "PG",
+        "typ": "invit",
+    },
+    {
+        "från": "magnus",
+        "till": "PG",
         "typ": "kodapa",
     },
     {
@@ -200,7 +225,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "chris",
+        "från": "lambert",
         "till": "rThor",
         "typ": "invit",
     },
@@ -220,7 +245,7 @@ relationer = [
         "typ": "kodapa",
     },
     {
-        "från": "august",
+        "från": "agge",
         "till": "claes",
         "typ": "kodapa",
     },
@@ -336,12 +361,17 @@ relationer = [
     },
     {
         "från": "mitch",
-        "till": "chris",
+        "till": "lambert",
+        "typ": "invit",
+    },
+    {
+        "från": "agge",
+        "till": "agges polare",
         "typ": "invit",
     },
     {
         "från": "niklas",
-        "till": "august",
+        "till": "agge",
         "typ": "invit",
     },
     {
@@ -355,7 +385,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "august",
+        "från": "agge",
         "till": "alex",
         "typ": "invit",
     },
@@ -536,7 +566,12 @@ relationer = [
     },
     {
         "från": "denkan",
-        "till": "rkty",
+        "till": "sudden",
+        "typ": "invit",
+    },
+    {
+        "från": "sudden",
+        "till": "kalle kebab",
         "typ": "invit",
     },
     {
@@ -547,6 +582,36 @@ relationer = [
     {
         "från": "toste",
         "till": "Tostes brädspelkompis",
+        "typ": "invit",
+    },
+    {
+        "från": "linus",
+        "till": "Linus kompis",
+        "typ": "invit",
+    },
+    {
+        "från": "tornborg",
+        "till": "ryssen",
+        "typ": "invit",
+    },
+    {
+        "från": "magnus",
+        "till": "Tor",
+        "typ": "invit",
+    },
+    {
+        "från": "magnus",
+        "till": "Thriump",
+        "typ": "invit",
+    },
+    {
+        "från": "fia",
+        "till": "sidosteg",
+        "typ": "invit",
+    },
+    {
+        "från": "fia",
+        "till": "linnea, fias kompis",
         "typ": "invit",
     },
     {
