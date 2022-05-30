@@ -540,7 +540,7 @@ töntar = [
         "typ": "användare",
     },
     {
-        // "discordId": "265153081484902400",
+        "discordId": "265153081484902400",
         "benämning": "agges polare",
         "typ": "användare",
     },
