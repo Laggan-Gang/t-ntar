@@ -100,7 +100,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "spacehippo",
+        "från": "ludvig",
         "till": "Melker",
         "typ": "invit",
     },
@@ -126,7 +126,7 @@ relationer = [
     },
     {
         "från": "hugo",
-        "till": "spacehippo",
+        "till": "ludvig",
         "typ": "invit",
     },
     {
@@ -195,7 +195,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "tod",
+        "från": "ludvig",
         "till": "zys0",
         "typ": "invit",
     },
@@ -335,12 +335,12 @@ relationer = [
         "typ": "skugga",
     },
     {
-        "från": "spacehippo",
+        "från": "ludvig",
         "till": "mitch",
         "typ": "skugga",
     },
     // {
-    //     "från": "spacehippo",
+    //     "från": "ludvig",
     //     "till": "Luddekudde",
     //     "typ": "invit",
     // },
@@ -470,7 +470,7 @@ relationer = [
         "typ": "skugga",
     },
     {
-        "från": "spacehippo",
+        "från": "ludvig",
         "till": "fia",
         "typ": "invit",
     },
@@ -485,7 +485,7 @@ relationer = [
         "typ": "skugga",
     },
     {
-        "till": "spacehippo",
+        "till": "ludvig",
         "från": "SATAN",
         "typ": "skugga",
     },
@@ -510,7 +510,7 @@ relationer = [
         "typ": "skugga",
     },
     {
-        "till": "spacehippo",
+        "till": "ludvig",
         "från": "SATAN 2",
         "typ": "skugga",
     },
@@ -530,7 +530,7 @@ relationer = [
         "typ": "invit",
     },
     // {
-    //     "från": "spacehippo",
+    //     "från": "ludvig",
     //     "till": "bishop",
     //     "typ": "invit",
     // },
@@ -576,7 +576,7 @@ relationer = [
     },
     {
         "från": "uschtvii",
-        "till": "spacehippo",
+        "till": "ludvig",
         "typ": "invit",
     },
     {
@@ -780,7 +780,7 @@ relationer = [
         "typ": "invit",
     },
     {
-        "från": "tod",
+        "från": "ludvig",
         "till": "comet",
         "typ": "invit",
     },
@@ -817,6 +817,11 @@ relationer = [
     {
         "från": "lambert",
         "till": "magnus",
+        "typ": "blame",
+    },
+    {
+        "från": "comet",
+        "till": "magma",
         "typ": "blame",
     },
     {

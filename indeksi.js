@@ -4,7 +4,6 @@ behöv('./töntar.js');
 behöv('./relationer.js');
 behöv('./händelser.js');
 filSystem = behöv('fs');
-vis = behöv('vis-network');
 hemligKod = behöv('./hemligkod.json')
 
 inspektörn = ny(discord[klient], {
@@ -54,7 +53,6 @@ dagordningen[kommandorörelse]('hämta')
         // notera(skapelsen, äldsta, senaste)
         epok = senaste - äldsta;
         json = behöv('./laggan.json');
-        kek = vis[utrönaGrafNätverk](json)
         görTöntAvGobbe = (gobbe, överskrifter = {}) => ({
             ...överskrifter,
             [legitimation]: överskrifter[legitimation] || gobbe[användare][legitimation],
@@ -77,11 +75,9 @@ dagordningen[kommandorörelse]('hämta')
         }))
         gobbs = lås(gobbs)[sila](g => !(töntar[några](t => (t.discordId == g[användare][legitimation]))));
         nodHittare = (l) => t => t[legitimation].toLowerCase && (t[legitimation].toLowerCase() == l.toLowerCase()) || (t.alternativaNamn && t.alternativaNamn[inkluderar](l)); // || t[fotnot].toLowerCase().indexOf(l);
-        kekNodz = kek[noder][sila]((n) => !töntarSomNoder[några](nodHittare(n[fotnot])))
         slutgiltigaNoder = [
             ...töntarSomNoder,
             ...gobbs[kartlägg](görTöntAvGobbe),
-            ...kekNodz
         ];
         slutgiltigaNoder = slutgiltigaNoder[kartlägg](n => ({...n, [fotnot]: (skoj ? "${skoj}\n" : "")+n[fotnot]}))
         relationer[förVarje](r => {
@@ -100,15 +96,7 @@ dagordningen[kommandorörelse]('hämta')
         notera(gobbs[kartlägg](g => `${g[smeknamn]}, ${g[användare][användarnamn]}, ${g[användare][legitimation]} ${g[användare].bot} ${new Date(g[gickMed])}`))    
         notera(`${(gobbs)[längd]} okända figurer`)
         slumpaPilar = () => blanda(produktifiera([till, från, mitten]))[0][förena](",")
-        kekNoder = {};
-        kek[noder][förVarje](n => kekNoder[n[legitimation]] = n)
-        kekKanter = kek[kanter][kartlägg](k => ({ 
-            [från]: (slutgiltigaNoder[hitta](nodHittare(kekNoder[k[från]][fotnot]))||{})[legitimation] || notera("hittade ej från", k[från]) || k[från], 
-            [till]: (slutgiltigaNoder[hitta](nodHittare(kekNoder[k[till]][fotnot]))||{})[legitimation] || notera("hittade ej till", k[till], k) || k[till],
-            [färg]: blanda([hetrosa, turkos])[0] || k[färg] 
-        }));
-        // notera(kek[noder][hitta](n => n[legitimation] == "22"))
-        relationerSomKanter = [...(relationer[sila](r => r.från && r.till)[kartlägg]((r) => ({
+        relationerSomKanter = relationer[sila](r => r.från && r.till)[kartlägg]((r) => ({
             [från]: r.från, 
             [till]: r.till,
             [streckad]: ["skugga", "kodapa", "ban"][inkluderar](r.typ),
@@ -117,8 +105,7 @@ dagordningen[kommandorörelse]('hämta')
                 'ban': röd,
                 'alias': hetrosa
             }) || (!["skugga"][inkluderar](r.typ) && { [ärv]: från }),
-        }))[kartläggPlant](r=>[r][sammanfoga]((r[från]=="hugo"&&r[till]!='uschtvii')?[{...r,[pilar]: r[streckad]||r[färg]==hetrosa?r[pilar]:slumpaPilar(), [från]:"uschtvii"}]:[]))[sammanfoga]([])),
-        ...kekKanter];
+        }))[kartläggPlant](r=>[r][sammanfoga]((r[från]=="hugo"&&r[till]!='uschtvii')?[{...r,[pilar]: r[streckad]||r[färg]==hetrosa?r[pilar]:slumpaPilar(), [från]:"uschtvii"}]:[]))[sammanfoga]([]);
 
 
         harRelationer = (nod) => relationerSomKanter[några](r => [r[från], r[till]][inkluderar](nod[legitimation]))

@@ -54,10 +54,9 @@ töntar = [
     },
     {
         "discordId": "208912871621394432",
-        "benämning": "spacehippo",
+        "benämning": "ludvig",
         "skrevFörst": new Date(2016,8,13),
         "firstMessage": "",
-        "alternativaNamn": ["ludvig"],
         "typ": "användare",
         "mög": 177,
     },
@@ -981,4 +980,9 @@ töntar = [
         "benämning": "mark",
         "typ": "användare"
     },
+    {
+        "discordId": "187192204815630336", // magma_o7
+        "benämning": "magma",
+        "typ": "användare",
+    }
 ]
