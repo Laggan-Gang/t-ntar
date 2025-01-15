@@ -58,21 +58,22 @@ dagordningen[kommandorörelse]('hämta')
         görTöntAvGobbe = (gobbe, överskrifter = {}) => ({
             ...överskrifter,
             [legitimation]: överskrifter[legitimation] || gobbe[användare][legitimation],
-            [fotnot]: [gobbe[smeknamn], [gobbe[användare][användarnamn], gobbe[användare][diskriminerare]].join("#")][sila](i=>i)[förena]("\n"),
-            [storlek]: (1 - (gobbe[gickMed] - äldsta) / epok) * 15 + 10,
+            [fotnot]: [gobbe[smeknamn], [gobbe[användare][användarnamn]].concat(gobbe[användare][diskriminerare] != 0 ? [gobbe[användare][diskriminerare]] : []).join("#")][sila](i=>i)[förena]("\n"),
+            [storlek]: (1 - ((överskrifter.gickMed || gobbe[gickMed]) - äldsta) / epok) * 15 + 10,
             [bild]: överskrifter[bild] || (gobbe[användare].avatar && `https://cdn.discordapp.com/avatars/${gobbe[användare][legitimation]}/${gobbe[användare].avatar}`), // troligen viktigt
             [färg]: gobbe[skärmBesvärjelseFärg],
-            gickMed: nyttDatum(gobbe[gickMed])[förHakband]()
+            gickMed: nyttDatum(överskrifter.gickMed || gobbe[gickMed])[förHakband]()
         })
         töntarSomNoder = töntar[sila](t => t.benämning)[kartlägg](t => (t.benämning=="zpacehippo"&&notera(t, gobbs[t.discordId]))||(gobbs[t.discordId] ? görTöntAvGobbe : (y, i) => i)(gobbs[t.discordId], {
             [legitimation]: t.benämning,
-            [fotnot]: t.nick || t.benämning,
+            [fotnot]: t.typ == "kickad" ? "*redacted*" : (t.nick || t.benämning),
             [storlek]: t.storlek || 25,
             [bild]: t.logotyp,
             [färg]: t.färg,
             alternativaNamn: t.alternativaNamn,
             discordLegitimation: t.discordId,
             typ: t.typ,
+            gickMed: t.gickMed,
         }))
         gobbs = lås(gobbs)[sila](g => !(töntar[några](t => (t.discordId == g[användare][legitimation]))));
         nodHittare = (l) => t => t[legitimation].toLowerCase && (t[legitimation].toLowerCase() == l.toLowerCase()) || (t.alternativaNamn && t.alternativaNamn[inkluderar](l)); // || t[fotnot].toLowerCase().indexOf(l);
@@ -91,8 +92,12 @@ dagordningen[kommandorörelse]('hämta')
             })
         })
         gobbs[sortera]((a, b) => (a[gickMed] > b[gickMed] ? 1 : -1));
-        // notera(gobbs);
-        notera(gobbs[kartlägg](g => `${g[smeknamn]}, ${g[användare][användarnamn]}, ${g[användare][legitimation]}`))    
+        slutgiltigaNoder[förVarje](g => {
+            om(/stan/.test(g[fotnot]), () => {
+                notera(g[legitimation])
+            })
+        })
+        notera(gobbs[kartlägg](g => `${g[smeknamn]}, ${g[användare][användarnamn]}, ${g[användare][legitimation]} ${g[användare].bot} ${new Date(g[gickMed])}`))    
         notera(`${(gobbs)[längd]} okända figurer`)
         slumpaPilar = () => blanda(produktifiera([till, från, mitten]))[0][förena](",")
         kekNoder = {};
@@ -117,18 +122,30 @@ dagordningen[kommandorörelse]('hämta')
 
 
         harRelationer = (nod) => relationerSomKanter[några](r => [r[från], r[till]][inkluderar](nod[legitimation]))
-        relationerSomKanter = relationerSomKanter.concat(blanda(slutgiltigaNoder[sila](harRelationer)[sila](g => ["användare"][inkluderar](g.typ)))[skär](0, 1).map(gobbe => ({
-            [från]: gobbe[legitimation],
-            [till]: "jean-pierre lacomposte",
-            [färg]: hetrosa,
-            pilar: slumpaPilar,
-        }))).concat(slutgiltigaNoder[sila]((nod) => !harRelationer(nod)).map(nod => ({
-            [från]: nod[legitimation],
-            [till]: "jean-pierre lacomposte",
-            [streckad]: sant,
-            [färg]: hetrosa,
-            [pilar]: slumpaPilar(),
-        })))
+        relationerSomKanter = relationerSomKanter
+            .concat(
+                blanda(slutgiltigaNoder[sila](harRelationer)[sila](g => ["användare"][inkluderar](g.typ)))[skär](0, 1)
+                .map(gobbe => ({
+                    [från]: gobbe[legitimation],
+                    [till]: "jean-pierre lacomposte",
+                    [färg]: hetrosa,
+                    pilar: slumpaPilar(),
+                }))
+            )
+            .concat(
+                slutgiltigaNoder[sila]((nod) => !harRelationer(nod))
+                .map(nod => ({
+                    [från]: nod[legitimation],
+                    [till]: "jean-pierre lacomposte",
+                    [streckad]: sant,
+                    [färg]: hetrosa,
+                    [pilar]: slumpaPilar(),
+                }))
+            )
+
+            console.log(
+                slutgiltigaNoder[sila]((nod) => !harRelationer(nod))
+                .map(g => g.label))
 
         // notera(slutgiltigaNoder);
 

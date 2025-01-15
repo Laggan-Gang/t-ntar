@@ -55,9 +55,19 @@ relationer = [
         "typ": "oklarinvit",
     },
     {
+        "från": "jorel",
+        "till": "pkaff2",
+        "typ": "oklarinvit",
+    },
+    {
         "från": "agge",
         "till": "Hannes",
         "typ": "invit",
+    },
+    {
+        "från": "agge",
+        "till": "fluxarn",
+        "typ": "kusin",
     },
     {
         "från": "adam",
@@ -72,6 +82,16 @@ relationer = [
     {
         "från": "niklas",
         "till": "Korvblad",
+        "typ": "invit",
+    },
+    {
+        "från": "emil2",
+        "till": "elias",
+        "typ": "invit",
+    },
+    {
+        "från": "Altires",
+        "till": "jfranklin",
         "typ": "invit",
     },
     {
@@ -145,9 +165,39 @@ relationer = [
         "typ": "invit",
     },
     {
+        "från": "tod",
+        "till": "Samara",
+        "typ": "invit",
+    },
+    {
         "från": "max",
         "till": "Santas little scalper",
         "typ": "kodapa",
+    },
+    {
+        "från": "magnus",
+        "till": "per",
+        "typ": "invit",
+    },
+    {
+        "från": "mitch",
+        "till": "crisco",
+        "typ": "invit",
+    },
+    {
+        "från": "pao",
+        "till": "piine",
+        "typ": "invit",
+    },
+    {
+        "från": "mitch",
+        "till": "acerbus",
+        "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "zys0",
+        "typ": "invit",
     },
     {
         "från": "hugo",
@@ -261,7 +311,7 @@ relationer = [
     },
     {
         "från": "denkan",
-        "till": "elevrådsordföranden",
+        "till": "elevis",
         "typ": "kodapa",
     },
     {
@@ -332,6 +382,11 @@ relationer = [
     {
         "från": "tod",
         "till": "jezeray",
+        "typ": "invit",
+    },
+    {
+        "från": "jezeray",
+        "till": "eazyezor",
         "typ": "invit",
     },
     {
@@ -474,11 +529,11 @@ relationer = [
         "till": "Fawger",
         "typ": "invit",
     },
-    {
-        "från": "spacehippo",
-        "till": "bishop",
-        "typ": "invit",
-    },
+    // {
+    //     "från": "spacehippo",
+    //     "till": "bishop",
+    //     "typ": "invit",
+    // },
     {
         "från": "niklas",
         "till": "laxen",
@@ -487,6 +542,11 @@ relationer = [
     {
         "från": "niklas",
         "till": "Altires",
+        "typ": "invit",
+    },
+    {
+        "från": "magnus",
+        "till": "ivan",
         "typ": "invit",
     },
     {
@@ -551,7 +611,12 @@ relationer = [
     },
     {
         "från": "hugo",
-        "till": "elevrådsordföranden",
+        "till": "gustavsberg",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "elevis",
         "typ": "invit",
     },
     {
@@ -614,6 +679,352 @@ relationer = [
         "till": "linnea, fias kompis",
         "typ": "invit",
     },
+    {
+        "från": "sudden",
+        "till": "dmitry",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "dan",
+        "typ": "kick",
+    },
+    {
+        "från": "jean-pierre lacomposte",
+        "till": "Mysterious Benefactor",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "Yapos Queue",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "ShortStack",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "LaggTweets",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "Whens?",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "That's My BIS",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "jonatan",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "crone_",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "peek95",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "melze",
+        "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "cayfur",
+        "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "milktea",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "iamtupical",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "sd.mylittlepony",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "der.heiland",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "real_trumpel",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "thomaslim",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "wantonmee",
+        "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "comet",
+        "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "cayfur",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "Gulliga Roboten 2, Hime",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "ShortStack2",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "ShortStack Testing",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "dota-coach",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "Slashman",
+        "typ": "invit",
+    },
+    {
+        "från": "lambert",
+        "till": "magnus",
+        "typ": "blame",
+    },
+    {
+        "från": "mitch",
+        "till": "Mbar4661",
+        "typ": "alias",
+    },
+    {
+        "från": "fredrik",
+        "till": "V",
+        "typ": "invit",
+    },
+    {
+        "från": "V",
+        "till": "celalingo",
+        "typ": "invit",
+    },
+    {
+        "från": "tod",
+        "till": "butters",
+        "typ": "invit",
+    },
+    {
+        "från": "V",
+        "till": "hugh",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "gandalf",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "oskarler",
+        "typ": "invit",
+    },
+    {
+        "från": "jorel",
+        "till": "nymm",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "shado",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "roast_beef",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "qdot",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "m1lka",
+        "typ": "invit",
+    },
+    {
+        "från": "Hannes",
+        "till": "top200eu",
+        "typ": "invit",
+    },
+    {
+        "från": "Hannes",
+        "till": "robin",
+        "typ": "invit",
+    },
+    {
+        "från": "agge",
+        "till": "måns",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "koka",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "bugman",
+        "typ": "invit",
+    },
+    {
+        "från": "lambert",
+        "till": "josh",
+        "typ": "bror",
+    },
+    {
+        "från": "lambert",
+        "till": "boarofwar",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "oklar lost arkare",
+        "typ": "invit",
+    },
+    {
+        "från": "butters",
+        "till": "trico",
+        "typ": "invit",
+    },
+    {
+        "från": "butters",
+        "till": "mirei",
+        "typ": "invit",
+    },
+    {
+        "från": "joel",
+        "till": "lutfisk",
+        "typ": "invit",
+    },
+    {
+        "från": "lutfisk",
+        "till": "biltemakorv",
+        "typ": "invit",
+    },
+    {
+        "från": "jez",
+        "till": "jezs uni mate",
+        "typ": "invit",
+    },
+    {
+        "från": "niklas",
+        "till": "poppmaister6001",
+        "typ": "alias",
+    },
+    {
+        "från": "joel",
+        "till": "foxxyroxxy",
+        "typ": "invit",
+    },
+    {
+        "från": "niklas",
+        "till": "Somerogue",
+        "typ": "invit",
+    },
+    {
+        "från": "eddy",
+        "till": "råttdödaralliansen",
+        "typ": "invit",
+    },
+    {
+        "från": "bugman",
+        "till": "pentregarth",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "mark",
+        "typ": "invit",
+    },
+    {
+        "från": "hugo",
+        "till": "richard",
+        "typ": "invit",
+    },
+    {
+        "från": "butters",
+        "till": "soup",
+        "typ": "invit",
+    },
+    {
+        "från": "butters",
+        "till": "louise",
+        "typ": "invit",
+    },
+    {
+        "från": "mitch",
+        "till": "baharroth",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "jeff",
+        "typ": "invit",
+    },
+    {
+        "från": "emil2",
+        "till": "zeroji",
+        "typ": "invit",
+    },
+    {
+        "från": "nymm",
+        "till": "xxshadowframexx",
+        "typ": "invit",
+    },
+    {
+        "från": "jezeray",
+        "till": "the queen",
+        "typ": "invit",
+    },
+    {
+        "från": "jezeray",
+        "till": "easyezor",
+        "typ": "invit",
+    },
+    {
+        "från": "fia",
+        "till": "fias syster",
+        "typ": "syster",
+    },
+
     {
         "från": "",
         "till": "",
